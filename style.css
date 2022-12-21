@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.one{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(212,236,248);
+    /* position: fixed; */
+    /* z-index: -1; */
+   
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed; */
+    /* background-color: red; */
+    
+}
+nav > .navi{
+    width: 100px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav > ul > li{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: 520;
+    font-size: 20px;
+    font-family: 'Aboreto', cursive;
+}
+.images > .a, .b,.c{
+
+    padding: 15px;
+}
+nav > ul > li:hover{
+    background-color: rgba(206, 224, 241, 0.886);
+    /* opacity: 0.3; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+.left{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.content > p{
+    font: 510 1.3vmax "Montserrat";
+    word-spacing: 5px;
+}
+ .left > .image1  > img{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 20%;
+    left: 56%;
+    overflow: hidden;
+}
+.content > h1{
+    font: 700 8vmax "Shoelem";
+}
+
+.move{
+    position: absolute;
+    top: 80%;
+    left: 19%;
+}
+.move > h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(179,174,163);
+    /* text-decoration: underline; */
+    padding: 2px;
+
+}
+
+.move > button{
+    width: 150px;
+    font:600 1.1vmax "Shoelem";
+    padding: 8px;
+    border-radius: 40px;
+    border: none;
+    background-color:rgb(9, 0, 167);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.move > button:hover{
+    opacity: 0.5;
+
+}
+.left > .gif{
+    width: 200px;
+    position: absolute;
+    top: 78%;
+    left:5%;
+}
+.two , .three{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(212,236,248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two > .blue{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    margin-top: 600px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.blue > img{
+    width: 250px;
+    margin-bottom: 50px;
+}
+.blue > h1{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.blue > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px ;
+    margin-bottom: 20px;
+    color: white;
+}
+.blue > button{
+    padding: 10px;
+    width:50%;
+    border-radius: 40px;
+    border: none;
+    color: blue;
+    font: 600 1.2vmax "Shoelem";
+    margin-top: 10px;
+}
+.blue > button:hover{
+    opacity: 0.7;
+}
+.blue > .button{
+    opacity: 0.7;
+}
+.three{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(212,236,248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three > .left > img{
+    position: relative;
+    top: 50%;
+    width: 700px;
+}
+.three > .right{
+    position: relative;
+    top: 40%;
+}
+.three > .right > p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 100px;
+    
+    
+}
+.three > .right > p > span{
+    color: blue;
+    text-decoration: underline;
+}
+.three > .right > h1{
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+}
+.three > .right > .rect{
+        width: 66%;
+        height: 5vh;
+        background-color:blue;
+        font-family: 'Macondo', cursive;
+        font-size: 10px;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 10px;
+    
+}
+.three > .right > img{
+    width: 100px;
+    position:absolute;
+    top: 79%;
+    left: 70%;
+    overflow: hidden;
+    
+}
+.four{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(212,236,248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.four > .box{
+    width: 100%;
+    height: 90%;
+    margin-top: 200px;
+    background-color:blue;
+    overflow-y: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.four > .box > .card >h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    margin: 20px 0;
+    word-spacing: 2px;
+}
+.four > .box > .card > h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 10px;
+    text-decoration: underline;
+    color: #fff;
+   
+    
+}
+.four > .box > .card > h2:hover{
+    text-decoration: none;
+}
+.four > .box > .card >button{
+    width: 20%;
+    padding: 18px;
+    border-radius: 40px;
+    background-color:black;
+    color: #fff;
+}
+.four > .box > .card > button:hover{
+    opacity: 0.7;
+}
+.four > .box > footer > h6{
+    margin-top: 90px;
+    font: 600 1vmax "Shoelem";
+    writing-mode: horizontal-tb;
+    text-decoration: underline;
+}
+
